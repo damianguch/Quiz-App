@@ -17,3 +17,10 @@
 - Once user reach to last question they can submit the test.
 
 - After submitting the test, App component will render the Score component which is responsible to display the final score.
+
+## Technologies used
+
+- React Components
+- React Hooks
+- Bootstrap
+- npm

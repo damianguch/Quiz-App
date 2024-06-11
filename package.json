@@ -1,0 +1,12 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "- Provides users with a series of multiple-choice questions.\r - Requires them to select an option within a given time limit.\r - If the user fails to select an option within the specified time, the application automatically moves to the next question.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
