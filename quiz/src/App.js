@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import qBank from './Components/QuestionBank';
-import Questions from './Components/Questions';
-import Score from './Components/Score';
 import './App.css';
+import Score from './components/Score';
+import Questions from './components/Questions';
+import qBank from './components/QuestionBank';
 
 const App = () => {
   // eslint-disable-next-line

@@ -17,6 +17,13 @@ const questions = [
     options: ['1950', '1947', '1930', '1945'],
     answer: '1947',
     id: 3
+  },
+
+  {
+    question: 'Who is the president of Nigeria?',
+    options: ['Peter Obi', 'Bola Tinubu', 'Ahmed Ganduje', 'Yahaya Bello'],
+    answer: 'Peter Obi',
+    id: 4
   }
 ];
 export default questions;

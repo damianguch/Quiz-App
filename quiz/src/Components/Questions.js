@@ -20,10 +20,12 @@ const Questions = ({
     <div className="container mt-3 bg-secondary-subtle rounded">
       <div>
         <div className="card-body">
-          <p className="mt-2 text-warning-emphasis">Time remaining: {timer}</p>
+          <p className="mt-2 text-warning-emphasis fs-5">
+            Time remaining: {timer}
+          </p>
           <h4 className="card-text">
             {questions[currentQuestion].id}
-            {') '}
+            {'. '}
             {questions[currentQuestion].question}
           </h4>
           <div className="list-group">
@@ -40,7 +42,7 @@ const Questions = ({
                   border: '1px solid gray'
                 }}>
                 {optionIds[index]}
-                {')'} {option}
+                {'.'} {option}
               </button>
             ))}
           </div>
@@ -48,8 +50,7 @@ const Questions = ({
           <div className="row">
             <div className="col">
               <p className="card-title">
-                Question {currentQuestion + 1}
-                of {questions.length}
+                Question {currentQuestion + 1} of {questions.length}
               </p>
             </div>
             <div className="col">
